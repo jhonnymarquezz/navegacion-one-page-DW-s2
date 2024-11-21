@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Inter",sans-serif;
+}
+.header {
+
+    display: flex;
+    padding: 32px 80px;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    width: 100%;
+}
+
+.brand {}
+
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+.nav__link {
+   border-radius: 8px;
+    padding: 8px 16px;
+    
+    text-decoration: none;
+    font-weight: 600;
+    color: #181818;
+}
+.nav__link:hover {
+    background-color: #00000010;
+}
+.nav__link--primary {
+    background-color: aqua;
+
+}
+.nav__link--primary:hover{
+    background-color: rgb(44, 110, 110);
+}
+.section {
+    height: 100vh;
+
+}
+
+.section--one {
+    background-color: chartreuse;
+}
+
+
+.section--two {
+    background-color: blue;
+}
+.section--three {
+    background-color: blanchedalmond;
+}
